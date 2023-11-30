@@ -1,0 +1,115 @@
+.container {
+}
+.popular {
+  margin-bottom: 70px;
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+}
+.popular__title {
+  color: black;
+  padding: 0px 91px 12px 31px;
+  color: #113b47;
+  font-family: Tenor Sans;
+  font-size: 50px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-transform: uppercase;
+  transition: 0.7s all ease;
+}
+.swiper {
+  width: 100%;
+  height: 470px;
+  min-width: 0;
+}
+.card__swiper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.swiper-wrapper {
+}
+.swiper-slide {
+}
+.swiper-pagination {
+}
+.swiper-button-prev {
+}
+.swiper-button-next {
+}
+.swiper-scrollbar {
+}
+
+.custom_prev {
+  height: 65px;
+  width: 65px;
+  background: $color-green;
+  border: 2px solid white;
+  border-radius: 100%;
+  position: absolute;
+  z-index: 100;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  left: -20px;
+  top: 200px;
+}
+.custom_next {
+  position: absolute;
+  height: 65px;
+  width: 65px;
+  background: $color-green;
+  border: 2px solid white;
+  border-radius: 100%;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 100;
+  right: -10px;
+  top: 200px;
+  svg {
+    transform: rotate(180deg);
+  }
+}
+
+.popular__card-btn {
+  display: flex;
+  max-width: 366px;
+  margin-top: 18px;
+  gap: 10px;
+}
+.popular__card-btn-item {
+  padding: 15px 47px;
+  text-wrap: nowrap;
+  border: 2px solid $color-green;
+
+  color: white;
+  @extend %green-btn;
+  @extend %font-default;
+  &:hover {
+    padding: 15px 43px;
+    color: $color-green;
+    background-color: white;
+    border: 2px solid $color-green;
+    border-radius: 10px;
+  }
+}
+.card-btn {
+  padding: 15px 43px;
+  color: $color-green;
+  background-color: white;
+  border: 2px solid $color-green;
+  border-radius: 10px;
+  transition: 0.7s all ease;
+  @extend %font-default;
+  &:hover {
+    color: white;
+    background-color: $color-green;
+    @extend %font-default;
+  }
+}

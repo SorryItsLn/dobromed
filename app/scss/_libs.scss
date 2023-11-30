@@ -1,0 +1,44 @@
+%font-default {
+  color: #232323;
+  font-family: Commissioner;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+%font-pretitle {
+  color: #fff;
+  font-family: Orchidea Pro;
+  font-size: 42px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-transform: uppercase;
+}
+%font-title {
+  color: #fff;
+  font-family: Orchidea Pro;
+  font-size: 121px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-transform: uppercase;
+}
+%font-service {
+  color: #fff;
+  font-family: Tenor Sans;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-transform: uppercase;
+}
+
+%green-btn {
+  background-color: $color-green;
+  border-radius: 10px;
+  transition: 0.7s all ease;
+  &:hover {
+    background-color: $color-green-hover;
+  }
+}

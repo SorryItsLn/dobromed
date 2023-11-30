@@ -1,0 +1,62 @@
+.footer {
+  flex: 0 0 auto;
+  min-width: 100%;
+  display: flex;
+  justify-content: center;
+  background-color: $color-green-bold;
+  hr {
+    width: 100%;
+    margin: 35px 0;
+  }
+}
+.footer__content {
+  display: flex;
+  flex-direction: column;
+}
+.footer__content-contact {
+  display: flex;
+  gap: 72px;
+  margin-top: 62px;
+  @extend %font-default;
+  color: white;
+}
+.footer__content-contact-item {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.footer__content-contact-logo {
+  display: flex;
+  justify-content: center;
+  align-items: start;
+  width: auto;
+}
+.footer__content-contact-logo-items {
+  display: flex;
+  gap: 5px;
+  color: white;
+}
+.footer_contact-logo-item {
+  cursor: pointer;
+  &:hover {
+    scale: 1.1;
+  }
+}
+.footer__content-police {
+  display: flex;
+  gap: 190px;
+  margin-bottom: 66px;
+}
+.footer__content-police-item {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  @extend %font-default;
+  color: white;
+  p {
+    cursor: pointer;
+  }
+  p:hover {
+    color: $color-green-hover;
+  }
+}
