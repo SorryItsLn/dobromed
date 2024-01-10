@@ -1,184 +1,178 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
-    <link rel="stylesheet" href="css/style.min.css" />
-    <link
-      rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
-    />
-  </head>
 
-  <body>
-    <!-- Header -->
-    <header class="header container">
-      <div class="header__content">
-        <div class="header__logo">
-          <img src="./images/header/логотип-3 (Traced).svg" alt="" />
-        </div>
-        <div class="header__description">
-          <div class="header__links">
-            <a class="header__links-item" href="">Услуги</a>
-            <a class="header__links-item" href="">О нас</a>
-            <a class="header__links-item" href="">Специалисты</a>
-            <a class="header__links-item" href="">Сертификат</a>
-            <a class="header__links-item" href="">Акции</a>
-            <a class="header__links-item" href="">Контакты</a>
-            <a class="header__links-item" href="">Отзывы</a>
-            <a class="header__links-button" href=""> Записаться на прием</a>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Dobromed</title>
+  <link rel="icon" href="./images/LogoTitle.svg" type="image/x-icon">
+  <link rel="stylesheet" href="css/style.min.css" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+</head>
+
+<body>
+  <!-- Header -->
+
+  <header class="header container">
+    <div class="header__content ">
+      <a class="header__logo" href="#">
+        <img src="./images/header/логотип-3 (Traced).svg" alt="" />
+      </a>
+      <div class="header__description ">
+        <div class="header__links">
+          <a class="header__links-item" href="services.html">Услуги</a>
+          <a class="header__links-item" href="about.html">О нас</a>
+          <a class="header__links-item" href="specialist.html">Специалисты</a>
+          <a class="header__links-item" href="sertificat.html">Сертификат</a>
+          <a class="header__links-item" href="sales.html">Акции</a>
+          <a class="header__links-item" href="contact.html">Контакты</a>
+          <a class="header__links-item" href="reviews.html">Отзывы</a>
+          <a class="header__links-button" href="https://app.medesk.ru/"> Записаться на прием</a>
+
+
+          <div class=" container__burger" onclick="burgerMenu(this)">
+            <div class="bar1"></div>
+            <div class="bar2"></div>
+            <div class="bar3"></div>
           </div>
-          <div class="header__contact">
-            <p class="header__contact-item">
-              <img src="./images/header/geo.png" alt="geo.png" />
-              Россия, г. Ханты-Мансийск, ул. Дунина-Горкавича, д. 10
-            </p>
-            <p class="header__contact-item">
-              <img src="./images/header/phone.png" alt="geo.png" />+7(950)
-              520-10-10
-            </p>
-            <p class="header__contact-item">
-              <img
-                src="./images/header/mail.png"
-                alt="geo.png"
-              />esp-clinic@bk.ru
-            </p>
-            <div class="header__contact-logo">
-              <img
-                class="header_contact-logo-item"
-                src="./images/header/viber.png"
-                alt=""
-              /><img
-                class="header_contact-logo-item"
-                src="./images/header/tg.png"
-                alt=""
-              /><img
-                class="header_contact-logo-item"
-                src="./images/header/vk.png"
-                alt=""
-              /><img
-                class="header_contact-logo-item"
-                src="./images/header/ok.png"
-                alt=""
-              />
-            </div>
+
+        </div>
+        <div class="header__contact">
+          <p class="header__contact-item">
+            <img src="./images/header/geo.png" alt="geo.png" />
+            Россия, г. Ханты-Мансийск, ул. Дунина-Горкавича, д. 10
+          </p>
+          <p class="header__contact-item">
+            <img src="./images/header/phone.png" alt="geo.png" />+7(950)
+            520-10-10
+          </p>
+          <p class="header__contact-item">
+            <img src="./images/header/mail.png" alt="geo.png" />esp-clinic@bk.ru
+          </p>
+          <div class="header__contact-logo">
+            <img class="header_contact-logo-item" src="./images/header/viber.png" alt="" /><img
+              class="header_contact-logo-item" src="./images/header/tg.png" alt="" /><img
+              class="header_contact-logo-item" src="./images/header/vk.png" alt="" /><img
+              class="header_contact-logo-item" src="./images/header/ok.png" alt="" />
           </div>
         </div>
       </div>
-    </header>
+    </div>
 
-    <!-- Main -->
-    <div class="wrapper">
-      <main class="main">
-        <!-- Hero -->
-        <div class="hero">
-          <div class="hero__main container">
-            <div class="hero__main-content">
-              <p class="hero__main-content-pretitle">МедИцинский центр</p>
-              <p class="hero__main-content-item">PRODERMA</p>
-              <p class="hero__main-content-description">
-                Сохраните и приумножьте свое здоровье вместе с нами
-              </p>
-              <a class="hero__main-content-btn" href="">Записаться на прием</a>
-            </div>
-          </div>
-          <div class="hero__contact">
-            <div class="hero__contact-item">
-              <p>Телеграм-бот</p>
-              <img src="./images/cib_telegram-plane.svg" alt="tg" />
-            </div>
+  </header>
+
+  <!-- Main -->
+  <div class="wrapper">
+    <main class="main">
+      <!-- Hero -->
+      <div class="hero">
+        <div class="hero__main container">
+          <div class="hero__main-content">
+            <p class="hero__main-content-pretitle">МедИцинский центр</p>
+            <p class="hero__main-content-item">PRODERMA</p>
+            <p class="hero__main-content-description">
+              Сохраните и приумножьте свое здоровье вместе с нами
+            </p>
+            <a class="hero__main-content-btn" href="">Записаться на прием</a>
           </div>
         </div>
-        <!-- Hero -->
-
-        <!-- services -->
-        <div class="service">
-          <div class="service__content container">
-            <div class="service__content-first">
-              <p>УСЛУГИ нашей клиники</p>
-            </div>
-            <div class="service__content-item q1">
-              <p class="service__content-item-title">
-                Консультация и диагностика
-              </p>
-              <p class="service__content-item-about">
-                Подробнее <img src="./images/Arrow - Right 2.svg" alt="" />
-              </p>
-            </div>
-            <div class="service__content-item q2">
-              <p class="service__content-item-title">Аппаратная косметология</p>
-              <p class="service__content-item-about">
-                Подробнее <img src="./images/Arrow - Right 2.svg" alt="" />
-              </p>
-            </div>
-            <div class="service__content-item q3">
-              <p class="service__content-item-title">Нитевые методики</p>
-              <p class="service__content-item-about">
-                Подробнее <img src="./images/Arrow - Right 2.svg" alt="" />
-              </p>
-            </div>
-            <div class="service__content-item q3">
-              <p class="service__content-item-title">
-                Инъекционная косметология
-              </p>
-              <p class="service__content-item-about">
-                Подробнее <img src="./images/Arrow - Right 2.svg" alt="" />
-              </p>
-            </div>
-            <div class="service__content-item q4">
-              <p class="service__content-item-title">Эстетические услуги</p>
-              <p class="service__content-item-about">
-                Подробнее <img src="./images/Arrow - Right 2.svg" alt="" />
-              </p>
-            </div>
-            <div class="service__content-item q5">
-              <p class="service__content-item-title">Трихология</p>
-              <p class="service__content-item-about">
-                Подробнее <img src="./images/Arrow - Right 2.svg" alt="" />
-              </p>
-            </div>
-            <div class="service__content-item q6">
-              <p class="service__content-item-title">Гинекология</p>
-              <p class="service__content-item-about">
-                Подробнее <img src="./images/Arrow - Right 2.svg" alt="" />
-              </p>
-            </div>
-            <div class="service__content-item q7">
-              <p class="service__content-item-title">Лазерная косметология</p>
-              <p class="service__content-item-about">
-                Подробнее <img src="./images/Arrow - Right 2.svg" alt="" />
-              </p>
-            </div>
-            <div class="service__content-item q8">
-              <p class="service__content-item-title">Дерматология</p>
-              <p class="service__content-item-about">
-                Подробнее <img src="./images/Arrow - Right 2.svg" alt="" />
-              </p>
-            </div>
-            <div class="service__content-item q9">
-              <p class="service__content-item-title">Урология</p>
-              <p class="service__content-item-about">
-                Подробнее <img src="./images/Arrow - Right 2.svg" alt="" />
-              </p>
-            </div>
-            <div class="service__content-item q10">
-              <p class="service__content-item-title">физиотерапия</p>
-              <p class="service__content-item-about">
-                Подробнее <img src="./images/Arrow - Right 2.svg" alt="" />
-              </p>
-            </div>
+        <div class="hero__contact">
+          <div class="hero__contact-item">
+            <p>Телеграм-бот</p>
+            <img src="./images/cib_telegram-plane.svg" alt="tg" />
           </div>
         </div>
-        <!-- services -->
+      </div>
+      <!-- Hero -->
 
-        <!-- popular -->
-        <div class="container popular">
-          <div>
-            <div class="popular__title">
-              <p>популярные процедуры</p>
-            </div>
+      <!-- services -->
+      <div class="service">
+        <div class="service__content ">
+          <div class="service__content-first">
+            <p>УСЛУГИ нашей клиники</p>
           </div>
+          <div class="service__content-item q1">
+            <p class="service__content-item-title">
+              Консультация и диагностика
+            </p>
+            <p class="service__content-item-about">
+              Подробнее <img src="./images/Arrow - Right 2.svg" alt="" />
+            </p>
+          </div>
+          <div class="service__content-item q2">
+            <p class="service__content-item-title">Аппаратная косметология</p>
+            <p class="service__content-item-about">
+              Подробнее <img src="./images/Arrow - Right 2.svg" alt="" />
+            </p>
+          </div>
+          <div class="service__content-item q3">
+            <p class="service__content-item-title">Нитевые методики</p>
+            <p class="service__content-item-about">
+              Подробнее <img src="./images/Arrow - Right 2.svg" alt="" />
+            </p>
+          </div>
+          <div class="service__content-item q3">
+            <p class="service__content-item-title">
+              Инъекционная косметология
+            </p>
+            <p class="service__content-item-about">
+              Подробнее <img src="./images/Arrow - Right 2.svg" alt="" />
+            </p>
+          </div>
+          <div class="service__content-item q4">
+            <p class="service__content-item-title">Эстетические услуги</p>
+            <p class="service__content-item-about">
+              Подробнее <img src="./images/Arrow - Right 2.svg" alt="" />
+            </p>
+          </div>
+          <div class="service__content-item q5">
+            <p class="service__content-item-title">Трихология</p>
+            <p class="service__content-item-about">
+              Подробнее <img src="./images/Arrow - Right 2.svg" alt="" />
+            </p>
+          </div>
+          <div class="service__content-item q6">
+            <p class="service__content-item-title">Гинекология</p>
+            <p class="service__content-item-about">
+              Подробнее <img src="./images/Arrow - Right 2.svg" alt="" />
+            </p>
+          </div>
+          <div class="service__content-item q7">
+            <p class="service__content-item-title">Лазерная косметология</p>
+            <p class="service__content-item-about">
+              Подробнее <img src="./images/Arrow - Right 2.svg" alt="" />
+            </p>
+          </div>
+          <div class="service__content-item q8">
+            <p class="service__content-item-title">Дерматология</p>
+            <p class="service__content-item-about">
+              Подробнее <img src="./images/Arrow - Right 2.svg" alt="" />
+            </p>
+          </div>
+          <div class="service__content-item q9">
+            <p class="service__content-item-title">Урология</p>
+            <p class="service__content-item-about">
+              Подробнее <img src="./images/Arrow - Right 2.svg" alt="" />
+            </p>
+          </div>
+          <div class="service__content-item q10">
+            <p class="service__content-item-title">физиотерапия</p>
+            <p class="service__content-item-about">
+              Подробнее <img src="./images/Arrow - Right 2.svg" alt="" />
+            </p>
+          </div>
+        </div>
+      </div>
+      <!-- services -->
+
+      <!-- popular -->
+      <div class=" popular">
+        <div>
+          <div class="popular__title">
+            <p>популярные процедуры</p>
+          </div>
+        </div>
+        <div class="popular__swiper">
           <div class="swiper">
             <!-- Additional required wrapper -->
             <div class="swiper-wrapper">
@@ -312,113 +306,818 @@
               ...
             </div>
 
+
             <!-- If we need navigation buttons -->
           </div>
-          <div class="custom_prev">
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              width="18"
-              height="16"
-              viewBox="0 0 18 16"
-              fill="none"
-            >
-              <path
-                fill-rule="evenodd"
-                clip-rule="evenodd"
-                d="M17.2928 7.17715C17.6922 7.23213 18 7.57953 18 7.99989C18 8.45846 17.6337 8.83021 17.1818 8.83021L2.80007 8.83021L7.99531 14.0813L8.07472 14.1743C8.31304 14.4989 8.28757 14.9602 7.9977 15.2556C7.67884 15.5805 7.1608 15.5816 6.84062 15.258L0.25226 8.59955C0.213041 8.56142 0.177555 8.51937 0.146416 8.47401C-0.0766354 8.14976 -0.0452156 7.69994 0.240669 7.41106L6.84067 0.741932L6.9326 0.661737C7.25342 0.421253 7.7079 0.449045 7.99775 0.744461C8.31658 1.06942 8.31546 1.59515 7.99526 1.91871L2.79877 7.16957L17.1818 7.16957L17.2928 7.17715Z"
-                fill="#FFFEFE"
-              />
-            </svg>
-          </div>
-          <div class="custom_next">
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              width="18"
-              height="16"
-              viewBox="0 0 18 16"
-              fill="none"
-            >
-              <path
-                fill-rule="evenodd"
-                clip-rule="evenodd"
-                d="M17.2928 7.17715C17.6922 7.23213 18 7.57953 18 7.99989C18 8.45846 17.6337 8.83021 17.1818 8.83021L2.80007 8.83021L7.99531 14.0813L8.07472 14.1743C8.31304 14.4989 8.28757 14.9602 7.9977 15.2556C7.67884 15.5805 7.1608 15.5816 6.84062 15.258L0.25226 8.59955C0.213041 8.56142 0.177555 8.51937 0.146416 8.47401C-0.0766354 8.14976 -0.0452156 7.69994 0.240669 7.41106L6.84067 0.741932L6.9326 0.661737C7.25342 0.421253 7.7079 0.449045 7.99775 0.744461C8.31658 1.06942 8.31546 1.59515 7.99526 1.91871L2.79877 7.16957L17.1818 7.16957L17.2928 7.17715Z"
-                fill="#FFFEFE"
-              />
-            </svg>
-          </div>
         </div>
-        <!-- popular -->
-      </main>
+        <div class="custom_prev">
+          <svg xmlns="http://www.w3.org/2000/svg" width="18" height="16" viewBox="0 0 18 16" fill="none">
+            <path fill-rule="evenodd" clip-rule="evenodd"
+              d="M17.2928 7.17715C17.6922 7.23213 18 7.57953 18 7.99989C18 8.45846 17.6337 8.83021 17.1818 8.83021L2.80007 8.83021L7.99531 14.0813L8.07472 14.1743C8.31304 14.4989 8.28757 14.9602 7.9977 15.2556C7.67884 15.5805 7.1608 15.5816 6.84062 15.258L0.25226 8.59955C0.213041 8.56142 0.177555 8.51937 0.146416 8.47401C-0.0766354 8.14976 -0.0452156 7.69994 0.240669 7.41106L6.84067 0.741932L6.9326 0.661737C7.25342 0.421253 7.7079 0.449045 7.99775 0.744461C8.31658 1.06942 8.31546 1.59515 7.99526 1.91871L2.79877 7.16957L17.1818 7.16957L17.2928 7.17715Z"
+              fill="#FFFEFE" />
+          </svg>
+        </div>
+        <div class="custom_next">
+          <svg xmlns="http://www.w3.org/2000/svg" width="18" height="16" viewBox="0 0 18 16" fill="none">
+            <path fill-rule="evenodd" clip-rule="evenodd"
+              d="M17.2928 7.17715C17.6922 7.23213 18 7.57953 18 7.99989C18 8.45846 17.6337 8.83021 17.1818 8.83021L2.80007 8.83021L7.99531 14.0813L8.07472 14.1743C8.31304 14.4989 8.28757 14.9602 7.9977 15.2556C7.67884 15.5805 7.1608 15.5816 6.84062 15.258L0.25226 8.59955C0.213041 8.56142 0.177555 8.51937 0.146416 8.47401C-0.0766354 8.14976 -0.0452156 7.69994 0.240669 7.41106L6.84067 0.741932L6.9326 0.661737C7.25342 0.421253 7.7079 0.449045 7.99775 0.744461C8.31658 1.06942 8.31546 1.59515 7.99526 1.91871L2.79877 7.16957L17.1818 7.16957L17.2928 7.17715Z"
+              fill="#FFFEFE" />
+          </svg>
+        </div>
+      </div>
+      <!-- popular -->
 
-      <!-- Footer -->
-      <footer class="footer">
-        <div class="footer__content">
-          <div class="footer__content-contact">
-            <div class="footer__content-contact-item">
-              <img src="./images/header/логотип-3 (Traced) white.svg" alt="" />
+      <!-- sales -->
+
+      <div class=" sales">
+        <div class=" sales__main">
+          <div class="sales__title">акции</div>
+          <div class="sales__content">
+
+            <div class="sales__content-item ">
+              <div class="sales__comtent-item-card ">
+                <div class="sales__comtent-item-card-img">
+                  <img src="./images/sales/image 74.png" alt="">
+                </div>
+                <div class="sales__comtent-item-card-title">
+                  <p class="title">50% скидка</p>
+                  <p class="subtitle"> на первое посещение массажа лица</p>
+                </div>
+                <div class="sales__comtent-item-card-btn-first">
+                  <a class="sales_btn" href="#">Подробнее</a>
+                  <a class="sales_btn-second" href="#">Записаться</a>
+                </div>
+
+              </div>
             </div>
-            <div class="footer__content-contact-item">
-              <p>Добромед, ООО, ИНН 8601068801</p>
-              <p>ОГРН 1198617011581 от 03.10.2019</p>
-              <p>Лицензия: ЛО-86-01-003690</p>
-            </div>
-            <div class="footer__content-contact-item">
-              <p>Россия, г. Ханты-Мансийск</p>
-              <p>ул. Дунина-Горкавича, д. 10,</p>
-            </div>
-            <div class="footer__content-contact-item">
-              <p>+7(950)520-10-10</p>
-              <p>dobromed.hm@mail.ru</p>
-            </div>
-            <div class="footer__content-contact-logo">
-              <div class="footer__content-contact-logo-items">
-                <img
-                  class="footer_contact-logo-item"
-                  src="./images/header/Group 1133.svg"
-                  alt=""
-                /><img
-                  class="footer_contact-logo-item"
-                  src="./images/header/Group 1134.svg"
-                  alt=""
-                /><img
-                  class="footer_contact-logo-item"
-                  src="./images/header/Group 1135.svg"
-                  alt=""
-                /><img
-                  class="footer_contact-logo-item"
-                  src="./images/header/ph_whatsapp-logo-thin.svg"
-                  alt=""
-                />
+            <div class="sales__content-item">
+              <div class="sales__comtent-item-card">
+                <div class="sales__comtent-item-card-img">
+                  <img src="./images/sales/image 74 (1).png" alt="">\
+                </div>
+                <div class="sales__comtent-item-card-title">
+                  <p class="title">50% скидка</p>
+                  <p class="subtitle"> на первое посещение массажа лица</p>
+                </div>
+                <div class="sales__comtent-item-card-btn">
+                  <a class="sales_btn" href="#">Подробнее</a>
+                  <a class="sales_btn-second" href="#">Записаться</a>
+                </div>
+              </div>
+              <div class="sales__comtent-item-card">
+                <div class="sales__comtent-item-card-img">
+                  <img src="./images/sales/image 74 (1).png" alt="">\
+                </div>
+                <div class="sales__comtent-item-card-title">
+                  <p class="title">50% скидка</p>
+                  <p class="subtitle"> на первое посещение массажа лица</p>
+                </div>
+                <div class="sales__comtent-item-card-btn">
+                  <a class="sales_btn" href="#">Подробнее</a>
+                  <a class="sales_btn-second" href="#">Записаться</a>
+                </div>
+              </div>
+            </div class="sales__comtent-item-card">
+            <div class="sales__content-item">
+              <div class="sales__comtent-item-card">
+                <div class="sales__comtent-item-card-img">
+                  <img src="./images/sales/image 74 (1).png" alt="">\
+                </div>
+                <div class="sales__comtent-item-card-title">
+                  <p class="title">50% скидка</p>
+                  <p class="subtitle"> на первое посещение массажа лица</p>
+                </div>
+                <div class="sales__comtent-item-card-btn">
+                  <a class="sales_btn" href="#">Подробнее</a>
+                  <a class="sales_btn-second" href="#">Записаться</a>
+                </div>
+              </div>
+              <div class="sales__comtent-item-card">
+                <div class="sales__comtent-item-card-img">
+                  <img src="./images/sales/image 74 (1).png" alt="">\
+                </div>
+                <div class="sales__comtent-item-card-title">
+                  <p class="title">50% скидка</p>
+                  <p class="subtitle"> на первое посещение массажа лица</p>
+                </div>
+                <div class="sales__comtent-item-card-btn">
+                  <a class="sales_btn" href="#">Подробнее</a>
+                  <a class="sales_btn-second" href="#">Записаться</a>
+                </div>
               </div>
             </div>
           </div>
-          <hr />
-          <div class="footer__content-police">
-            <div class="footer__content-police-item">
-              <p>Политика конфиденциальности</p>
-              <p>
-                Правила предоставления платных <br />
-                медицинских услуг
-              </p>
+        </div>
+      </div>
+
+      <!-- sales -->
+
+      <!-- articles -->
+      <div class="articles container">
+        <div class="articles__main">
+          <div class="articles__title">
+            <p class="articles__title-item">Статьи</p>
+          </div>
+          <div class="articles__wrapper">
+            <div class="articles__content">
+              <div class="articles__content-item">
+                <img src="./images/Rectangle 720.svg" alt="articles" />
+                <div class="articles__content-item-description">
+                  <p class="articles__content-item-description-title">
+                    Номеровская Анна Михайловна прошла дополнительное обучение
+                  </p>
+                  <p class="articles__content-item-description-about">
+                    Специалист по коррекции фигуры, реабилитолог клиники Анна
+                    Михайловна Номеровская прошла обучение по дополнительной
+                    профессиональной программе
+                  </p>
+                  <div class="articles__content-item-description-other">
+                    <p class="articles__content-item-description-other-title">
+                      Читать статью
+                      <img src="./images/Arrow - Right 2.svg" alt="arrowRight" />
+                    </p>
+                    <p>4 августа в 11:15</p>
+                  </div>
+                </div>
+              </div>
+
             </div>
-            <div class="footer__content-police-item">
-              <p>Пользовательское соглашение</p>
-              <p>
-                Порядок оказания медицинской<br />
-                помощи населению
-              </p>
+            <div class="articles__content">
+              <div class="articles__content-item">
+                <img src="./images/Rectangle 720.svg" alt="articles" />
+                <div class="articles__content-item-description">
+                  <p class="articles__content-item-description-title">
+                    Номеровская Анна Михайловна прошла дополнительное обучение
+                  </p>
+                  <p class="articles__content-item-description-about">
+                    Специалист по коррекции фигуры, реабилитолог клиники Анна
+                    Михайловна Номеровская прошла обучение по дополнительной
+                    профессиональной программе
+                  </p>
+                  <div class="articles__content-item-description-other">
+                    <p class="articles__content-item-description-other-title">
+                      Читать статью
+                      <img src="./images/Arrow - Right 2.svg" alt="arrowRight" />
+                    </p>
+                    <p>4 августа в 11:15</p>
+                  </div>
+                </div>
+              </div>
+
             </div>
-            <div class="footer__content-police-item">
-              <p>Контакты надзорных организаций</p>
-              <p>2022 ⓒ</p>
+            <div class="articles__content">
+              <div class="articles__content-item">
+                <img src="./images/Rectangle 720.svg" alt="articles" />
+                <div class="articles__content-item-description">
+                  <p class="articles__content-item-description-title">
+                    Номеровская Анна Михайловна прошла дополнительное обучение
+                  </p>
+                  <p class="articles__content-item-description-about">
+                    Специалист по коррекции фигуры, реабилитолог клиники Анна
+                    Михайловна Номеровская прошла обучение по дополнительной
+                    профессиональной программе
+                  </p>
+                  <div class="articles__content-item-description-other">
+                    <p class="articles__content-item-description-other-title">
+                      Читать статью
+                      <img src="./images/Arrow - Right 2.svg" alt="arrowRight" />
+                    </p>
+                    <p>4 августа в 11:15</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="articles_btn">
+            <a class="articles_btn-item" href="#">Читать все статьи</a>
+          </div>
+        </div>
+      </div>
+      <div class="popular articles__swiper">
+        <div class="popular__swiper">
+          <div class="swiper4">
+            <!-- Additional required wrapper -->
+            <div class="swiper-wrapper">
+              <!-- Slides -->
+              <div class="swiper-slide">
+                <div class="articles__content">
+                  <div class="articles__content-item">
+                    <img src="./images/Rectangle 720.svg" alt="articles" />
+                    <div class="articles__content-item-description">
+                      <p class="articles__content-item-description-title">
+                        Номеровская Анна Михайловна прошла дополнительное обучение
+                      </p>
+                      <p class="articles__content-item-description-about">
+                        Специалист по коррекции фигуры, реабилитолог клиники Анна
+                        Михайловна Номеровская прошла обучение по дополнительной
+                        профессиональной программе
+                      </p>
+                      <div class="articles__content-item-description-other">
+                        <p class="articles__content-item-description-other-title">
+                          Читать статью
+                        </p>
+                        <p>4 августа в 11:15</p>
+                      </div>
+                    </div>
+                  </div>
+
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="articles__content">
+                  <div class="articles__content-item">
+                    <img src="./images/Rectangle 720.svg" alt="articles" />
+                    <div class="articles__content-item-description">
+                      <p class="articles__content-item-description-title">
+                        Номеровская Анна Михайловна прошла дополнительное обучение
+                      </p>
+                      <p class="articles__content-item-description-about">
+                        Специалист по коррекции фигуры, реабилитолог клиники Анна
+                        Михайловна Номеровская прошла обучение по дополнительной
+                        профессиональной программе
+                      </p>
+                      <div class="articles__content-item-description-other">
+                        <p class="articles__content-item-description-other-title">
+                          Читать статью
+                        </p>
+                        <p>4 августа в 11:15</p>
+                      </div>
+                    </div>
+                  </div>
+
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="articles__content">
+                  <div class="articles__content-item">
+                    <img src="./images/Rectangle 720.svg" alt="articles" />
+                    <div class="articles__content-item-description">
+                      <p class="articles__content-item-description-title">
+                        Номеровская Анна Михайловна прошла дополнительное обучение
+                      </p>
+                      <p class="articles__content-item-description-about">
+                        Специалист по коррекции фигуры, реабилитолог клиники Анна
+                        Михайловна Номеровская прошла обучение по дополнительной
+                        профессиональной программе
+                      </p>
+                      <div class="articles__content-item-description-other">
+                        <p class="articles__content-item-description-other-title">
+                          Читать статью
+                        </p>
+                        <p>4 августа в 11:15</p>
+                      </div>
+                    </div>
+                  </div>
+
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="articles__content">
+                  <div class="articles__content-item">
+                    <img src="./images/Rectangle 720.svg" alt="articles" />
+                    <div class="articles__content-item-description">
+                      <p class="articles__content-item-description-title">
+                        Номеровская Анна Михайловна прошла дополнительное обучение
+                      </p>
+                      <p class="articles__content-item-description-about">
+                        Специалист по коррекции фигуры, реабилитолог клиники Анна
+                        Михайловна Номеровская прошла обучение по дополнительной
+                        профессиональной программе
+                      </p>
+                      <div class="articles__content-item-description-other">
+                        <p class="articles__content-item-description-other-title">
+                          Читать статью
+
+                        </p>
+                        <p>4 августа в 11:15</p>
+                      </div>
+                    </div>
+                  </div>
+
+                </div>
+              </div>
+
+            </div>
+
+
+            <!-- If we need navigation buttons -->
+          </div>
+        </div>
+        <!-- articles -->
+      </div>
+
+      <!--certificate -->
+      <div class="sertificat container">
+        <div class="sertificat__content">
+          <img class="sertificat__img-first" src="./images/sertificat/Union.svg" alt="">
+          <img class="sertificat__img-second" src="./images/sertificat/Union2.svg" alt="">
+          <div class="sertificat__item">
+
+            <p class="sertificat__item-title">сертификат</p>
+            <a href="#">Подробнее</a>
+          </div>
+          <div class="sertificat__item">
+            <p class="sertificat__item-description">Подарите близкому человеку возможность позаботиться о своем
+              здоровье
+              и красоте.</p>
+            <p class="sertificat__item-description">Сертификат распростроняется на все <br>виды услуг</p>
+          </div>
+        </div>
+      </div>
+      <!--certificate -->
+
+
+      <!-- specialists -->
+
+      <div class="specialis">
+        <div class="container specialis-content">
+
+          <div class="specialis__title">
+            <p>Специалисты</p>
+          </div>
+          <div class="popular__swiper">
+            <div class="swiper2">
+              <!-- Additional required wrapper -->
+              <div class="swiper-wrapper">
+                <!-- Slides -->
+                <div class="swiper-slide">
+                  <div class="swiper__card">
+                    <div class="specialists__card-img">
+                      <img src="./images/specialist/Rectangle 370.png" alt="">
+                    </div>
+                    <div class="specialists__card-description">
+                      <p class="specialists__card-description-title">ГУМЕННАЯ ОЛЬГА ИГОРЕВНА</p>
+                      <p class="specialists__card-description-subtitle">Акушер-гинеколог</p>
+                    </div>
+                    <div class="specialists__card-btn">
+                      <button class="specialists__card-btn-item btn-add-card" id="btn" href=""> Подробнее</button>
+                      <a class="specialists-btn" href=""> Записаться</a>
+                    </div>
+                    <div class="swiper__card-about" id="popup">
+                      <p>Диагностика и лечение различных форм акне, розацеа, атопического дерматита, экземы, псориаз,
+                        грибковые поражения кожи и ногтей, вирусные дерматозы, заболевания волос и кожи волосистой части
+                        головы.</p>
+
+                    </div>
+                  </div>
+
+                </div>
+                <div class="swiper-slide">
+                  <div class="swiper__card">
+                    <div class="specialists__card-img">
+                      <img src="./images/specialist/Rectangle 387.png" alt="">
+                    </div>
+                    <div class="specialists__card-description">
+                      <p class="specialists__card-description-title">Петр Иванович Прокопьев</p>
+                      <p class="specialists__card-description-subtitle">Хирург проктолог</p>
+                    </div>
+                    <div class="specialists__card-btn">
+                      <button class="specialists__card-btn-item" id="btn" href=""> Подробнее</button>
+                      <a class="specialists-btn" href=""> Записаться</a>
+                    </div>
+                    <div class="swiper__card-about" id="popup">
+                      <p>Диагностика и лечение различных форм акне, розацеа, атопического дерматита, экземы, псориаз,
+                        грибковые поражения кожи и ногтей, вирусные дерматозы, заболевания волос и кожи волосистой части
+                        головы.</p>
+
+                    </div>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="swiper__card">
+                    <div class="specialists__card-img">
+                      <img src="./images/specialist/Rectangle 388.png" alt="">
+                    </div>
+                    <div class="specialists__card-description">
+                      <p class="specialists__card-description-title">ИВАНОВА АННА АЛЕКСАНДРОВНА</p>
+                      <p class="specialists__card-description-subtitle">Акушер-гинеколог</p>
+                    </div>
+                    <div class="specialists__card-btn">
+                      <button class="specialists__card-btn-item" id="btn" href=""> Подробнее</button>
+                      <a class="specialists-btn" href=""> Записаться</a>
+                    </div>
+                  </div>
+                  <div class="swiper__card-about" id="popup">
+                    <p>Диагностика и лечение различных форм акне, розацеа, атопического дерматита, экземы, псориаз,
+                      грибковые поражения кожи и ногтей, вирусные дерматозы, заболевания волос и кожи волосистой части
+                      головы.</p>
+
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="swiper__card">
+                    <div class="specialists__card-img">
+                      <img src="./images/specialist/Rectangle 370.png" alt="">
+                    </div>
+                    <div class="specialists__card-description">
+                      <p class="specialists__card-description-title">ГУМЕННАЯ ОЛЬГА ИГОРЕВНА</p>
+                      <p class="specialists__card-description-subtitle">Акушер-гинеколог</p>
+                    </div>
+                    <div class="specialists__card-btn">
+                      <button class="specialists__card-btn-item" id="btn" href=""> Подробнее</button>
+                      <a class="specialists-btn" href=""> Записаться</a>
+                    </div>
+                  </div>
+                  <div class="swiper__card-about" id="popup">
+                    <p>Диагностика и лечение различных форм акне, розацеа, атопического дерматита, экземы, псориаз,
+                      грибковые поражения кожи и ногтей, вирусные дерматозы, заболевания волос и кожи волосистой части
+                      головы.</p>
+
+                  </div>
+                </div>
+              </div>
+
+
+              <!-- If we need navigation buttons -->
+            </div>
+          </div>
+          <div class="custom_prev-second">
+            <svg xmlns="http://www.w3.org/2000/svg" width="18" height="16" viewBox="0 0 18 16" fill="none">
+              <path fill-rule="evenodd" clip-rule="evenodd"
+                d="M17.2928 7.17715C17.6922 7.23213 18 7.57953 18 7.99989C18 8.45846 17.6337 8.83021 17.1818 8.83021L2.80007 8.83021L7.99531 14.0813L8.07472 14.1743C8.31304 14.4989 8.28757 14.9602 7.9977 15.2556C7.67884 15.5805 7.1608 15.5816 6.84062 15.258L0.25226 8.59955C0.213041 8.56142 0.177555 8.51937 0.146416 8.47401C-0.0766354 8.14976 -0.0452156 7.69994 0.240669 7.41106L6.84067 0.741932L6.9326 0.661737C7.25342 0.421253 7.7079 0.449045 7.99775 0.744461C8.31658 1.06942 8.31546 1.59515 7.99526 1.91871L2.79877 7.16957L17.1818 7.16957L17.2928 7.17715Z"
+                fill="#FFFEFE" />
+            </svg>
+          </div>
+          <div class="custom_next-second">
+            <svg xmlns="http://www.w3.org/2000/svg" width="18" height="16" viewBox="0 0 18 16" fill="none">
+              <path fill-rule="evenodd" clip-rule="evenodd"
+                d="M17.2928 7.17715C17.6922 7.23213 18 7.57953 18 7.99989C18 8.45846 17.6337 8.83021 17.1818 8.83021L2.80007 8.83021L7.99531 14.0813L8.07472 14.1743C8.31304 14.4989 8.28757 14.9602 7.9977 15.2556C7.67884 15.5805 7.1608 15.5816 6.84062 15.258L0.25226 8.59955C0.213041 8.56142 0.177555 8.51937 0.146416 8.47401C-0.0766354 8.14976 -0.0452156 7.69994 0.240669 7.41106L6.84067 0.741932L6.9326 0.661737C7.25342 0.421253 7.7079 0.449045 7.99775 0.744461C8.31658 1.06942 8.31546 1.59515 7.99526 1.91871L2.79877 7.16957L17.1818 7.16957L17.2928 7.17715Z"
+                fill="#FFFEFE" />
+            </svg>
+          </div>
+        </div>
+
+      </div>
+  </div>
+  <!-- specialists -->
+
+  <!-- reviews -->
+
+  <div class="reviews">
+    <div class="container">
+      <div class="reviews__title">
+        <p>отзывы</p>
+      </div>
+      <div class="reviews__content">
+        <div class="reviews__content-tabs">
+          <button class="reviews__content-btn " id="google_btn"><img src="./images/reviews/image 76.svg"
+              alt=""></button>
+          <button class="reviews__content-btn" id="yand_btn"><img src="./images/reviews/image 77.svg" alt=""></button>
+          <button class="reviews__content-btn" id="dooble_btn"><img src="./images/reviews/image 78.svg" alt=""></button>
+          <button class="reviews__content-btn " id="prodoct_btn">ПРОДОКОТОРОВ</button>
+        </div>
+      </div>
+      <div class="reviews__content-swiper">
+        <div class="swiper3">
+          <!-- Additional required wrapper -->
+          <div class="swiper-wrapper">
+            <!-- Slides -->
+            <div class=" google swiper-slide  " id="google">google
+              <div class="reviews__card">
+                <p class="reviews__card-title">Пациент+7-918-92XXXXX</p>
+                <p class="reviews__card-description"> От всей семьи выражаем благодарность врачу - Поничу
+                  Евгению
+                  Степановичу! Более 2-х лет не могли
+                  завести ребенка. Обошли все клиники, прошли кучу ненужных процедур, были поставлены страшные
+                  диагнозы в других городах. ....</p>
+                <p class="reviews__card-about">Читать полностью<img src="./images/Arrow - Right 2.svg" alt="arrowRight">
+                </p>
+                <p class="reviews__card-date">4 августа в 11:15</p>
+              </div>
+            </div>
+
+            <div class=" yand swiper-slide" id="yand">yand
+              <div class="reviews__card">
+                <p class="reviews__card-title">Пациент+7-918-92XXXXX</p>
+                <p class="reviews__card-description"> От всей семьи выражаем благодарность врачу - Поничу
+                  Евгению
+                  Степановичу! Более 2-х лет не могли
+                  завести ребенка. Обошли все клиники, прошли кучу ненужных процедур, были поставлены страшные
+                  диагнозы в других городах. ....</p>
+                <p class="reviews__card-about">Читать полностью<img src="./images/Arrow - Right 2.svg" alt="arrowRight">
+                </p>
+                <p class="reviews__card-date">4 августа в 11:15</p>
+              </div>
+            </div>
+
+            <div class=" dooble swiper-slide" id="dooble">dooble
+              <div class="reviews__card">
+                <p class="reviews__card-title">Пациент+7-918-92XXXXX</p>
+                <p class="reviews__card-description"> От всей семьи выражаем благодарность врачу - Поничу
+                  Евгению
+                  Степановичу! Более 2-х лет не могли
+                  завести ребенка. Обошли все клиники, прошли кучу ненужных процедур, были поставлены страшные
+                  диагнозы в других городах. ....</p>
+                <p class="reviews__card-about">Читать полностью<img src="./images/Arrow - Right 2.svg" alt="arrowRight">
+                </p>
+                <p class="reviews__card-date">4 августа в 11:15</p>
+              </div>
+            </div>
+
+            <div class=" prodoct swiper-slide" id="prodoct">prodoct
+              <div class="reviews__card">
+                <p class="reviews__card-title">Пациент+7-918-92XXXXX</p>
+                <p class="reviews__card-description"> От всей семьи выражаем благодарность врачу - Поничу
+                  Евгению
+                  Степановичу! Более 2-х лет не могли
+                  завести ребенка. Обошли все клиники, прошли кучу ненужных процедур, были поставлены страшные
+                  диагнозы в других городах. ....</p>
+                <p class="reviews__card-about">Читать полностью<img src="./images/Arrow - Right 2.svg" alt="arrowRight">
+                </p>
+                <p class="reviews__card-date">4 августа в 11:15</p>
+              </div>
+
+            </div>
+            <div class=" google  swiper-slide" id="google">google
+              <div class="reviews__card">
+                <p class="reviews__card-title">Пациент+7-918-92XXXXX</p>
+                <p class="reviews__card-description"> От всей семьи выражаем благодарность врачу - Поничу
+                  Евгению
+                  Степановичу! Более 2-х лет не могли
+                  завести ребенка. Обошли все клиники, прошли кучу ненужных процедур, были поставлены страшные
+                  диагнозы в других городах. ....</p>
+                <p class="reviews__card-about">Читать полностью<img src="./images/Arrow - Right 2.svg" alt="arrowRight">
+                </p>
+                <p class="reviews__card-date">4 августа в 11:15</p>
+              </div>
+            </div>
+
+            <div class=" yand swiper-slide" id="yand">yand
+              <div class="reviews__card">
+                <p class="reviews__card-title">Пациент+7-918-92XXXXX</p>
+                <p class="reviews__card-description"> От всей семьи выражаем благодарность врачу - Поничу
+                  Евгению
+                  Степановичу! Более 2-х лет не могли
+                  завести ребенка. Обошли все клиники, прошли кучу ненужных процедур, были поставлены страшные
+                  диагнозы в других городах. ....</p>
+                <p class="reviews__card-about">Читать полностью<img src="./images/Arrow - Right 2.svg" alt="arrowRight">
+                </p>
+                <p class="reviews__card-date">4 августа в 11:15</p>
+              </div>
+            </div>
+
+            <div class=" dooble swiper-slide" id="dooble">dooble
+              <div class="reviews__card">
+                <p class="reviews__card-title">Пациент+7-918-92XXXXX</p>
+                <p class="reviews__card-description"> От всей семьи выражаем благодарность врачу - Поничу
+                  Евгению
+                  Степановичу! Более 2-х лет не могли
+                  завести ребенка. Обошли все клиники, прошли кучу ненужных процедур, были поставлены страшные
+                  диагнозы в других городах. ....</p>
+                <p class="reviews__card-about">Читать полностью<img src="./images/Arrow - Right 2.svg" alt="arrowRight">
+                </p>
+                <p class="reviews__card-date">4 августа в 11:15</p>
+              </div>
+            </div>
+
+            <div class=" prodoct swiper-slide" id="prodoct">prodoct
+              <div class="reviews__card">
+                <p class="reviews__card-title">Пациент+7-918-92XXXXX</p>
+                <p class="reviews__card-description"> От всей семьи выражаем благодарность врачу - Поничу
+                  Евгению
+                  Степановичу! Более 2-х лет не могли
+                  завести ребенка. Обошли все клиники, прошли кучу ненужных процедур, были поставлены страшные
+                  диагнозы в других городах. ....</p>
+                <p class="reviews__card-about">Читать полностью<img src="./images/Arrow - Right 2.svg" alt="arrowRight">
+                </p>
+                <p class="reviews__card-date">4 августа в 11:15</p>
+              </div>
+
+            </div>
+            <div class=" google swiper-slide  " id="google">google
+              <div class="reviews__card">
+                <p class="reviews__card-title">Пациент+7-918-92XXXXX</p>
+                <p class="reviews__card-description"> От всей семьи выражаем благодарность врачу - Поничу
+                  Евгению
+                  Степановичу! Более 2-х лет не могли
+                  завести ребенка. Обошли все клиники, прошли кучу ненужных процедур, были поставлены страшные
+                  диагнозы в других городах. ....</p>
+                <p class="reviews__card-about">Читать полностью<img src="./images/Arrow - Right 2.svg" alt="arrowRight">
+                </p>
+                <p class="reviews__card-date">4 августа в 11:15</p>
+              </div>
+            </div>
+
+            <div class=" yand swiper-slide" id="yand">yand
+              <div class="reviews__card">
+                <p class="reviews__card-title">Пациент+7-918-92XXXXX</p>
+                <p class="reviews__card-description"> От всей семьи выражаем благодарность врачу - Поничу
+                  Евгению
+                  Степановичу! Более 2-х лет не могли
+                  завести ребенка. Обошли все клиники, прошли кучу ненужных процедур, были поставлены страшные
+                  диагнозы в других городах. ....</p>
+                <p class="reviews__card-about">Читать полностью<img src="./images/Arrow - Right 2.svg" alt="arrowRight">
+                </p>
+                <p class="reviews__card-date">4 августа в 11:15</p>
+              </div>
+            </div>
+
+            <div class=" dooble swiper-slide" id="dooble">dooble
+              <div class="reviews__card">
+                <p class="reviews__card-title">Пациент+7-918-92XXXXX</p>
+                <p class="reviews__card-description"> От всей семьи выражаем благодарность врачу - Поничу
+                  Евгению
+                  Степановичу! Более 2-х лет не могли
+                  завести ребенка. Обошли все клиники, прошли кучу ненужных процедур, были поставлены страшные
+                  диагнозы в других городах. ....</p>
+                <p class="reviews__card-about">Читать полностью<img src="./images/Arrow - Right 2.svg" alt="arrowRight">
+                </p>
+                <p class="reviews__card-date">4 августа в 11:15</p>
+              </div>
+            </div>
+
+            <div class=" prodoct swiper-slide" id="prodoct">prodoct
+              <div class="reviews__card">
+                <p class="reviews__card-title">Пациент+7-918-92XXXXX</p>
+                <p class="reviews__card-description"> От всей семьи выражаем благодарность врачу - Поничу
+                  Евгению
+                  Степановичу! Более 2-х лет не могли
+                  завести ребенка. Обошли все клиники, прошли кучу ненужных процедур, были поставлены страшные
+                  диагнозы в других городах. ....</p>
+                <p class="reviews__card-about">Читать полностью<img src="./images/Arrow - Right 2.svg" alt="arrowRight">
+                </p>
+                <p class="reviews__card-date">4 августа в 11:15</p>
+              </div>
+
+            </div>
+            <div class=" google  swiper-slide" id="google">google
+              <div class="reviews__card">
+                <p class="reviews__card-title">Пациент+7-918-92XXXXX</p>
+                <p class="reviews__card-description"> От всей семьи выражаем благодарность врачу - Поничу
+                  Евгению
+                  Степановичу! Более 2-х лет не могли
+                  завести ребенка. Обошли все клиники, прошли кучу ненужных процедур, были поставлены страшные
+                  диагнозы в других городах. ....</p>
+                <p class="reviews__card-about">Читать полностью<img src="./images/Arrow - Right 2.svg" alt="arrowRight">
+                </p>
+                <p class="reviews__card-date">4 августа в 11:15</p>
+              </div>
+            </div>
+
+            <div class=" yand swiper-slide" id="yand">yand
+              <div class="reviews__card">
+                <p class="reviews__card-title">Пациент+7-918-92XXXXX</p>
+                <p class="reviews__card-description"> От всей семьи выражаем благодарность врачу - Поничу
+                  Евгению
+                  Степановичу! Более 2-х лет не могли
+                  завести ребенка. Обошли все клиники, прошли кучу ненужных процедур, были поставлены страшные
+                  диагнозы в других городах. ....</p>
+                <p class="reviews__card-about">Читать полностью<img src="./images/Arrow - Right 2.svg" alt="arrowRight">
+                </p>
+                <p class="reviews__card-date">4 августа в 11:15</p>
+              </div>
+            </div>
+
+            <div class=" dooble swiper-slide" id="dooble">dooble
+              <div class="reviews__card">
+                <p class="reviews__card-title">Пациент+7-918-92XXXXX</p>
+                <p class="reviews__card-description"> От всей семьи выражаем благодарность врачу - Поничу
+                  Евгению
+                  Степановичу! Более 2-х лет не могли
+                  завести ребенка. Обошли все клиники, прошли кучу ненужных процедур, были поставлены страшные
+                  диагнозы в других городах. ....</p>
+                <p class="reviews__card-about">Читать полностью<img src="./images/Arrow - Right 2.svg" alt="arrowRight">
+                </p>
+                <p class="reviews__card-date">4 августа в 11:15</p>
+              </div>
+            </div>
+
+            <div class=" prodoct swiper-slide" id="prodoct">prodoct
+              <div class="reviews__card">
+                <p class="reviews__card-title">Пациент+7-918-92XXXXX</p>
+                <p class="reviews__card-description"> От всей семьи выражаем благодарность врачу - Поничу
+                  Евгению
+                  Степановичу! Более 2-х лет не могли
+                  завести ребенка. Обошли все клиники, прошли кучу ненужных процедур, были поставлены страшные
+                  диагнозы в других городах. ....</p>
+                <p class="reviews__card-about">Читать полностью<img src="./images/Arrow - Right 2.svg" alt="arrowRight">
+                </p>
+                <p class="reviews__card-date">4 августа в 11:15</p>
+              </div>
+
             </div>
           </div>
         </div>
-      </footer>
-      <!-- Footer -->
+        <div>
+
+        </div>
+      </div>
+
+      <div class="custom_btns">
+        <div class="custom_prev-third">
+          <svg xmlns="http://www.w3.org/2000/svg" width="18" height="16" viewBox="0 0 18 16" fill="none">
+            <path fill-rule="evenodd" clip-rule="evenodd"
+              d="M17.2928 7.17715C17.6922 7.23213 18 7.57953 18 7.99989C18 8.45846 17.6337 8.83021 17.1818 8.83021L2.80007 8.83021L7.99531 14.0813L8.07472 14.1743C8.31304 14.4989 8.28757 14.9602 7.9977 15.2556C7.67884 15.5805 7.1608 15.5816 6.84062 15.258L0.25226 8.59955C0.213041 8.56142 0.177555 8.51937 0.146416 8.47401C-0.0766354 8.14976 -0.0452156 7.69994 0.240669 7.41106L6.84067 0.741932L6.9326 0.661737C7.25342 0.421253 7.7079 0.449045 7.99775 0.744461C8.31658 1.06942 8.31546 1.59515 7.99526 1.91871L2.79877 7.16957L17.1818 7.16957L17.2928 7.17715Z"
+              fill="#FFFEFE" />
+          </svg>
+        </div>
+        <div class="custom_next-third">
+          <svg xmlns="http://www.w3.org/2000/svg" width="18" height="16" viewBox="0 0 18 16" fill="none">
+            <path fill-rule="evenodd" clip-rule="evenodd"
+              d="M17.2928 7.17715C17.6922 7.23213 18 7.57953 18 7.99989C18 8.45846 17.6337 8.83021 17.1818 8.83021L2.80007 8.83021L7.99531 14.0813L8.07472 14.1743C8.31304 14.4989 8.28757 14.9602 7.9977 15.2556C7.67884 15.5805 7.1608 15.5816 6.84062 15.258L0.25226 8.59955C0.213041 8.56142 0.177555 8.51937 0.146416 8.47401C-0.0766354 8.14976 -0.0452156 7.69994 0.240669 7.41106L6.84067 0.741932L6.9326 0.661737C7.25342 0.421253 7.7079 0.449045 7.99775 0.744461C8.31658 1.06942 8.31546 1.59515 7.99526 1.91871L2.79877 7.16957L17.1818 7.16957L17.2928 7.17715Z"
+              fill="#FFFEFE" />
+          </svg>
+        </div>
+      </div>
+
     </div>
-    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
-    <script src="js/main.min.js"></script>
-    <script src="./scss/popular/swiper.js"></script>
-  </body>
+
+  </div>
+  
+  <!-- reviews -->
+
+
+  <!-- contact -->
+  <div class="contact">
+    <div class="container">
+      <div class="contact__form">
+        <div class="contact__form-title">
+          <p>Поможем с выбором услуги</p>
+        </div>
+        <form class="contact__form-item" action="">
+          <input class="contact__from-name" type="text" placeholder="Имя"><input class="contact__from-surnanme"
+            type="phone" placeholder="Номер телефона"><input class="contact__from-email" type="email"
+            placeholder="E-mail">
+
+          <button class="contact__from-item-btn">Перезвоните мне</button>
+          <p class="contact__from-item-description">Нажимая кнопку “ПЕРЕЗВОНИТЕ МНЕ”, вы соглашаетесь c политикой
+            обработки персональных данных.</p>
+        </form>
+      </div>
+    </div>
+
+
+  </div>
+  <!-- contact -->
+
+  </div>
+
+
+
+
+
+
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="footer__content">
+      <div class="footer__content-contact">
+        <div class="footer__content-contact-item">
+          <img src="./images/header/логотип-3 (Traced) white.svg" alt="" />
+        </div>
+        <div class="footer__content-contact-item">
+          <p>Добромед, ООО, ИНН 8601068801</p>
+          <p>ОГРН 1198617011581 от 03.10.2019</p>
+          <p>Лицензия: ЛО-86-01-003690</p>
+        </div>
+        <div class="footer__content-contact-item">
+          <p>Россия, г. Ханты-Мансийск</p>
+          <p>ул. Дунина-Горкавича, д. 10,</p>
+        </div>
+        <div class="footer__content-contact-item">
+          <p>+7(950)520-10-10</p>
+          <p>dobromed.hm@mail.ru</p>
+        </div>
+        <div class="footer__content-contact-logo">
+          <div class="footer__content-contact-logo-items">
+            <img class="footer_contact-logo-item" src="./images/header/Group 1133.svg" alt="" /><img
+              class="footer_contact-logo-item" src="./images/header/Group 1134.svg" alt="" /><img
+              class="footer_contact-logo-item" src="./images/header/Group 1135.svg" alt="" /><img
+              class="footer_contact-logo-item" src="./images/header/ph_whatsapp-logo-thin.svg" alt="" />
+          </div>
+        </div>
+      </div>
+      <hr />
+      <div class="footer__content-police">
+        <div class="footer__content-police-item">
+          <p>Политика конфиденциальности</p>
+          <p>
+            Правила предоставления платных <br />
+            медицинских услуг
+          </p>
+        </div>
+        <div class="footer__content-police-item">
+          <p>Пользовательское соглашение</p>
+          <p>
+            Порядок оказания медицинской<br />
+            помощи населению
+          </p>
+        </div>
+        <div class="footer__content-police-item">
+          <p>Контакты надзорных организаций</p>
+          <p>2022 ⓒ</p>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <!-- Footer -->
+  </div>
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+  <script src="js/main.min.js"></script>
+  <script src="./scss/main_page/popular/swiper.js"></script>
+  <script src="./js/reviews.js"></script>
+  <script src="./scss/default_components/burger.js"></script>
+</body>
+
 </html>

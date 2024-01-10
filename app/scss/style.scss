@@ -1,10 +1,39 @@
+//default
 @import "vars";
 @import "fonts";
 @import "reset";
 @import "libs";
 @import "global";
+
+// default temзlates
+@import "./default_components/burger";
+
+//dev scss
 @import "header";
 @import "footer";
-@import "./hero/hero";
-@import "./service/service";
-@import "./popular/popular";
+
+// @import "./main_page/hero/hero";
+@import "./main_page/hero/hero.scss";
+@import "./main_page/service/service";
+@import "./main_page/popular/popular";
+@import "./main_page/articles/articles";
+@import "./main_page/sales/sales";
+@import "./main_page/sertificat/sertificat";
+@import "./main_page/specialist/specialist";
+@import "./main_page/reviews/reviews";
+@import "./main_page/contact/contact";
+
+// second page
+@import "./about_page/about/about";
+@import "./about_page/gallary/gallary";
+@import "./about_page/adventages/adventages";
+@import "./about_page/licenses/licenses";
+@import "./about_page/contact_second/contact_second";
+//услуги(шаблон)
+@import "./services/hero.scss";
+@import "./services/services_about.scss";
+@import "./services/services_procedures_about.scss";
+@import "./services/service_tabs.scss";
+@import "./services/service_advantages.scss";
+@import "./services/price.scss";
+
